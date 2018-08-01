@@ -152,7 +152,6 @@ public class GraphAlgorithms {
                     throw new IllegalArgumentException(
                             "the vertex passed in is not in the graph.");
                 }
-
                 //System.out.println("    " + adjListOfCurr);
                 for (VertexDistance<T> vd : adjListOfCurr) {
                     if (!visitedSet.contains(vd.getVertex())) {

@@ -138,13 +138,10 @@ public class Sorting {
         }
 
         mergeHelper(arr, comparator);
-
+        //It can also be written as having a return object
         //arr = mergeHelp(arr, comparator);
-        //for (int p = 0; p < (arr.length); p++) {
-        //    System.out.println(arr[p]);
-        //}
     }
-    /*
+
     //    private static <T> T[] mergeHelp(T[] array,
     //                                      Comparator<T> comparator) {
     //        int length = array.length;
@@ -196,8 +193,6 @@ public class Sorting {
     //        }
     //        return newArray;
     //    }*/
-
-
 
     /**
      * this method is used to help mergesort recursively
